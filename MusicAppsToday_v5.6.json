@@ -16,6 +16,17 @@
 			"kind": "ApplicationVersion"
 		},
 		{
+			"applicationVersion": "Local|Music IMS/${musicImsReleaseVersion}",
+			"name": "jira",
+			"kind": "ContentSource",
+			"type": "JIRA JQL",
+			"parameters": {
+				"query": "project = \"MEDS\""
+			},
+			"endpoint": "Jira",
+			"plugin": "Jira/1.2.3"
+		},
+		{
 			"version": "${ReleaseVersion}",
 			"applicationVersions": [
 				"Local|Music IMS/${musicImsReleaseVersion}",
